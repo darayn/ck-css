@@ -1,0 +1,70 @@
+.bd {
+  margin: 20px auto;
+  padding: 50px;
+  padding-bottom: 150px;
+  width: 500px;
+  border-radius: 20px;
+  background-color: #1de592;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bd > .title {
+  font-size: 40px;
+  width: 35px;
+}
+
+.bd > .sub-title {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.bd > .btn {
+  padding: 14px 35px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  border: None;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profiles {
+  margin: 20px auto;
+  /* padding: 50px; */
+  /* padding-bottom: 150px; */
+  width: 550px;
+  border-radius: 20px;
+  border: 1px solid lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.profiles > .upper > .profile-img {
+  width: 150px;
+  border-radius: 50%;
+  margin: 30px 35px;
+}
+.profiles > .upper {
+  margin: 50px;
+}
+
+.profiles > .upper > .title {
+  font-weight: 350;
+  color: #202123;
+}
+.profiles > .upper > .sub-title {
+  font-weight: 350;
+  color: #606569;
+  width: 400px;
+}
+
+.profiles > .see-profiles {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: 1px solid lightgray;
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #1e73e8;
+}
