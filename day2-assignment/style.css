@@ -115,3 +115,120 @@ body {
   border-radius: 25px;
   padding: 15px 20px;
 }
+
+.zomato-home {
+  margin: 10px auto;
+  width: 700px;
+  position: relative;
+  text-align: center;
+}
+
+.zomato-home > .main > .zomato-bg {
+  width: 100%;
+}
+
+.zomato-home > .sub {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+}
+
+.zomato-home > .sub > .logo {
+  margin: 10px;
+}
+
+.zomato-home > .sub > .search-bar {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: white;
+  width: 500px;
+  height: 40px;
+  border-radius: 10px;
+  /* padding: 10px 20px; */
+}
+.zomato-home > .sub > .search-bar > .search-box {
+  height: 20px;
+  border: none;
+  width: 270px;
+  box-sizing: border-box;
+  padding: 18px 20px;
+  border-radius: 10px;
+}
+
+.zomato-home > .sub > .search-bar > .search-icon {
+  color: gray;
+  margin-left: 20px;
+}
+
+.zomato-home > .sub > .search-bar > .geo {
+  color: #fe7e8a;
+  margin-left: 10px;
+}
+
+.zomato-home > .sub > .search-bar > .location {
+  border: none;
+  width: 150px;
+  color: gray;
+  padding: 10px 20px;
+}
+
+select {
+  /* Add your desired styles for the select box */
+  appearance: none; /* Remove default appearance */
+  -webkit-appearance: none; /* For Safari */
+  padding-right: 20px; /* To give space for the arrow */
+  background-image: linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ffffff, #ffffff); /* Creating the triangle */
+  background-position: calc(100% - 10px) center, calc(100% - 5px) center, 100% 0; /* Positioning the triangles and background color */
+  background-size: 5px 5px, 5px 5px, 2.5em 2.5em; /* Size of the triangles and background color */
+  background-repeat: no-repeat; /* Prevent repetition */
+  color: gray;
+}
+
+/* Apply styles to the select arrow icon in Firefox */
+select::-moz-focus-inner {
+  border: 0; /* Remove inner border in Firefox */
+}
+
+/* Apply styles to the select arrow icon in IE */
+select::-ms-expand {
+  display: none; /* Hide the arrow in IE */
+}
+
+.linkedin-profile {
+  margin: 20px auto;
+  width: 400px;
+}
+.profile {
+  position: relative;
+}
+.pf-bg {
+  top: 0;
+  width: 100%;
+  height: 150px;
+  position: relative;
+}
+.pf-pic {
+  height: 70px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.pf-pic-box {
+  position: absolute;
+  bottom: -30px;
+  left: 42%;
+}
+
+.profile-info {
+  margin: 40px auto;
+  text-align: center;
+}
+
+.designation {
+  margin: 10px;
+  color: gray;
+  font-weight: 500;
+}
